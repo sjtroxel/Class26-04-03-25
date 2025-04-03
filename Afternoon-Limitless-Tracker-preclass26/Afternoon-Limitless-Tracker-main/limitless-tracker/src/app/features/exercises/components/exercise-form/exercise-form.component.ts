@@ -5,6 +5,7 @@ import { ExerciseService } from '../../../../shared/services/exercise.service';
 @Component({
   selector: 'app-exercise-form',
   imports: [FormsModule],
+  standalone: true,
   templateUrl: './exercise-form.component.html',
   styleUrl: './exercise-form.component.css'
 })
